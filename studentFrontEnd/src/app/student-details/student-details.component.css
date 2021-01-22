@@ -1,0 +1,124 @@
+body{
+    display:flex;
+    margin-left: 35%;
+    margin-top: 15%;
+ }
+
+ .width-resize{
+     margin-left: -25%;
+ }
+ p{
+      width: 400px;
+      height:300px;
+      margin-right:5px;
+     
+ }
+ 
+ .form{
+     background-color: white;
+         
+ }
+ .Set{
+     margin-left:30px;
+     padding:13px;
+     margin-top: 2px;
+     border:none;
+ }
+
+ #submit{
+     margin-top:20px;
+     padding: 9px;
+     margin-left: 42%;
+     border-radius: 13px;
+ }
+ #submit:hover{
+    cursor:pointer;
+    background-color: coral;
+    color: black;
+ }
+ 
+ input{
+    border: none;
+    border-bottom: 1px solid black;
+ }
+
+ input:focus{
+     border: none;
+     border-bottom: 1px solid black;
+ }
+ 
+ input:disabled{
+     cursor: not-Allowed;
+ }
+
+ .btn-style{
+    color: black;
+    font-family: 'Source Sans Pro-Bold';
+    padding: 3px 20px;
+    margin-right: 10px;
+    margin-left: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+ }
+
+ .btn-style:hover{
+    cursor: pointer;
+ }
+
+ .edit-btn{
+     margin-right: 15px ;
+     font-family: 'Source Sans Pro-Bold';
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;  
+ }
+
+ .edit-btn:hover{
+     cursor: pointer;
+ }
+
+ .bg-green{
+     background-color: #7AFFAD;
+ }
+
+ .bg-blue{
+     background-color: #71EEFF;
+ }
+
+ .bg-red{
+     background-color: red;
+     color:white;
+ }
+ 
+
+ table{
+    border-radius: 4px;
+    border: 1px solid black;
+ }
+ th{
+    color: white;
+    background-color: black;
+    width: 230px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+
+ td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border: 1px solid black;
+ }
+
+ tr:nth-child(odd){
+     background-color: grey;
+ }
+ tr:nth-child(even){
+     background-color: white;
+ }
+
+ .mb-ml{
+     margin-left: 0px;
+     margin-bottom: 20px;
+ }
